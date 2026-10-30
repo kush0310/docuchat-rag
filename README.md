@@ -68,8 +68,10 @@ python -m eval.eval_retrieval --docs data/docs --questions eval/questions.jsonl 
 
 | Chunk size | Overlap | Hit rate@4 | MRR |
 |---|---|---|---|
-| 800 | 150 | _run and fill in_ | _run and fill in_ |
-| 400 | 80 | _run and fill in_ | _run and fill in_ |
+| 800 | 150 | 1.00 | 0.944 |
+| 400 | 80 | 1.00 | 0.944 |
+
+Measured on the included sample set: 9 labelled questions over 2 short documents. Every question found its source passage in the top 4, and it ranked first for 8 of 9. Both chunk sizes score the same because the sample documents are short. A larger document set is the next step for meaningful tuning.
 
 ## Tests
 ```bash
