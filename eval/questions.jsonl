@@ -1,0 +1,9 @@
+{"question": "How many vacation days do I get each year?", "expected_source": "acme_handbook.md", "expected_text": "20 days"}
+{"question": "Can I carry over unused PTO?", "expected_source": "acme_handbook.md", "expected_text": "carried over"}
+{"question": "How many days a week can I work from home?", "expected_source": "acme_handbook.md", "expected_text": "three days"}
+{"question": "Do I need a receipt for a $30 lunch?", "expected_source": "acme_handbook.md", "expected_text": "receipt"}
+{"question": "What should I do if my laptop is stolen?", "expected_source": "acme_handbook.md", "expected_text": "IT within 24 hours"}
+{"question": "How long do I have to return a product?", "expected_source": "acme_refund_policy.md", "expected_text": "30 days"}
+{"question": "Can I get my money back for an opened software license?", "expected_source": "acme_refund_policy.md", "expected_text": "not refundable"}
+{"question": "When will my refund show up?", "expected_source": "acme_refund_policy.md", "expected_text": "business days"}
+{"question": "My item arrived broken, what are my options?", "expected_source": "acme_refund_policy.md", "expected_text": "defective"}
